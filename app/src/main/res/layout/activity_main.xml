@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.smithrestaurant.MainActivity">
+
+    <ImageView
+        android:id="@+id/image1"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/pic_01"
+        android:scaleType="fitXY" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_restaurant_white_36dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="120dp"
+        android:layout_marginRight="110dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/image1"
+        android:orientation="vertical"
+        android:background="@drawable/bg_one">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Here at the Smith's, we bring to you savory foods to whet your insatiable appetites"
+            android:textSize="20sp"
+            android:paddingTop="12dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="@color/colorPrimaryDark"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Open Hours"
+            android:padding="10dp"
+            android:layout_marginLeft="42dp"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_schedule_black_24dp"
+            android:text="  Weekdays: 7:30am - 9:00pm"
+            android:textSize="20sp"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/colorPrimaryDark"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_schedule_black_24dp"
+            android:text="  Weekends: 8:30am - 11:30pm"
+            android:textSize="20sp"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/colorPrimaryDark"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Location"
+            android:padding="10dp"
+            android:layout_marginLeft="42dp"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_place_black_24dp"
+            android:text="  123 - Fifth Elm Street"
+            android:textSize="20sp"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/colorPrimaryDark"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_location_city_black_24dp"
+            android:text="  Wizzy Center, Nairobi"
+            android:textSize="20sp"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/colorPrimaryDark"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Contacts"
+            android:padding="10dp"
+            android:layout_marginLeft="42dp"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_phone_black_24dp"
+            android:text="  020 1-554-667"
+            android:textSize="20sp"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/colorPrimaryDark"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_email_black_24dp"
+            android:text="  smiths@info.com"
+            android:textSize="20sp"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/colorPrimaryDark"/>
+
+    </LinearLayout>
+</RelativeLayout>
